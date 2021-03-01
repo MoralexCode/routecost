@@ -14,14 +14,24 @@ Puedes obtener mas informacion en mi pagina web :
 - Genera elcosto que implica desplazarce entre ambos puntos.
 
 
-# Instalación:
-muestra los pasos específicos para instalar el proyecto. Por lo general se muestra un pedazo del código necesario para la instalación.
+# Instalación y configuración:
+Para instalar el proyecto se debe seguir lo siguientes pasos.
 
-####Code Blocks (Indented style)
+    git clone https://github.com/MoralexCode/routecost.git
+    npm i
+    crear un archivo .env en la raiz del proyecto
+    dentro del archivo .env agregar la siguientes variables de entorno
+        APIKEY=`Clave  de la api google`
+        APPID=`id de la aplicacion de google`
+        MAPS_URL=https://maps.googleapis.com/maps/api/distancematrix/json?units=metric&key=
+        WEATHER_ZIP_CODE_URL=http://api.openweathermap.org/data/2.5/weather?lang=es&units=metric&APPID=
+        WEATHER_CONDITIONS=https://openweathermap.org/weather-conditions
+        MONGODB_USER=`Usuario de la base de datos de MongoDB`
+        MONGODB_PASSWORD=`Password de la base de datos de MongoDB`
+        MONGODB_URL=`URL de la base de datos de MongoDB, si utilizas MongoAtlas u otro servicio de Mongo en la nube`
+        HOST=http://localhost
 
-Indented 4 spaces, like `<pre>` (Preformatted Text).
-
-    console.log('Hola Mundo')
+    npm start
     
 
 #Cómo usar:

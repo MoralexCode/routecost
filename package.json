@@ -1,0 +1,47 @@
+{
+    "name": "routecost",
+    "version": "1.0.0",
+    "description": "This app get the cost by route",
+    "main": "routecost.js",
+    "scripts": {
+        "start": "nodemon routecost.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Ing Oscar Morales",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.19.0",
+        "bcrypt-nodejs": "0.0.3",
+        "body-parser": "^1.18.3",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "jwt-simple": "^0.5.1",
+        "moment": "^2.24.0",
+        "mongoose": "^5.8.0",
+        "weather-js": "^2.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.4"
+    },
+    "prettier": {
+        "useTabs": false,
+        "semi": true,
+        "singleQuote": true,
+        "bracketSpacing": true,
+        "trailingComma": "es5",
+        "printWidth": 160
+    },
+    "eslintConfig": {
+        "extend": "plugin:prettier/recomended",
+        "rules": {
+            "semi": [
+                "error",
+                "always"
+            ],
+            "quotes": [
+                "error",
+                "dooble"
+            ]
+        }
+    }
+}
