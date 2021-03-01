@@ -34,7 +34,8 @@ Para instalar el proyecto se debe seguir lo siguientes pasos.
     npm start
     
 
-#Cómo usar:
+# Cómo usar:
+
 Una vez descargado, puedes ejecutar el siguiente endpoint en un cliente rest:
  
 
@@ -45,7 +46,7 @@ Una vez descargado, puedes ejecutar el siguiente endpoint en un cliente rest:
 	'localhost:port/api/distance/16.430746/-95.4399602/17.0812951/-96.7707511'
 	Clima, distancia y el costo :
 	'localhost:port/api/cost/16.430746/-95.4399602/17.0812951/-96.7707511'
-####Respuesta
+### Respuesta
 	
 	
     {
@@ -73,7 +74,7 @@ Una vez descargado, puedes ejecutar el siguiente endpoint en un cliente rest:
 
     
 
-#### if the API KEY  is invalid, you can see this message :
+### if the API KEY  is invalid, you can see this message :
     
 
 	MAPS_URL response :  {  destination_addresses: [],   error_message: 'The provided API key is invalid.',  origin_addresses: [],   rows: [],  status: 'REQUEST_DENIED'}
